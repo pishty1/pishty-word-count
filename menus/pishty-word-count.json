@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle pishty-word-count",
+        "command": "pishty-word-count:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "pishty-word-count",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "pishty-word-count:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
